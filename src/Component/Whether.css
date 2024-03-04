@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+  margin-top: 50px;
+  font-family: Arial, sans-serif; /* Set a fallback font */
+}
+
+input[type="text"] {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 200px; /* Set input width */
+  font-size: 16px; /* Increase font size */
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px; /* Increase font size */
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.weather-info {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  max-width: 300px;
+  margin: 0 auto;
+  background-color: #f9f9f9; /* Light background color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow */
+}
+
+.weather-info h2 {
+  font-size: 24px; /* Increase heading size */
+  margin-bottom: 10px; /* Add spacing below heading */
+}
+
+.weather-info p {
+  font-size: 18px; /* Increase paragraph font size */
+  margin-bottom: 8px; /* Add spacing below paragraphs */
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
+
+.loading {
+  font-size: 20px;
+  margin-top: 20px;
+  color: #007bff; /* Match button color */
+}
